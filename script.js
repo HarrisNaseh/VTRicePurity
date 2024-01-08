@@ -37,6 +37,7 @@ function calculateScore(){
     document.getElementById("submitBtn").style.display = "none";
     document.getElementById("clearBtn").style.display = "none";
     document.getElementById("directions").style.display = "none";
+    document.body.style = "background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff );"
 
    document.getElementById("scorediv").style.display = "block";
 

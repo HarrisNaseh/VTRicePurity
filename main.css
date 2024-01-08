@@ -5,7 +5,13 @@
     padding: 0;
 }
 
-body, html {
+  
+  body:before{
+
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.2), #ea8b06 75%);
+  }
+
+body{
 
     font-family: 'Arial', sans-serif;
     background: #f7f7f7;
@@ -15,6 +21,9 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: linear-gradient(to bottom, #ffffff, #630031, #b3a507, #CF4420, #ffffff );
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #headers {
@@ -28,14 +37,14 @@ body, html {
 }
 
 #headers p {
-    color: #666;
+    color: #484141;
     font-size: 1em;
 }
 
 #questions {
     width: 80%;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 10px auto;
     background: #fff;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -68,6 +77,7 @@ button {
     border-radius: 5px;
     padding: 10px 20px;
     margin-right: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
     font-size: 1em;
     transition: background 0.3s ease;
